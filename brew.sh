@@ -102,7 +102,9 @@ brew install homebrew/x11/xpdf
 brew install xz
 
 # Install other useful binaries.
+
 brew install ack
+brew install ag
 brew install dark-mode
 #brew install exiv2
 brew install git
@@ -125,6 +127,7 @@ brew install webkit2png
 brew install zopfli
 brew install pkg-config libffi
 brew install pandoc
+brew install neovim 
 
 # Lxml and Libxslt
 brew install libxml2
@@ -137,13 +140,10 @@ brew install heroku-toolbelt
 heroku update
 
 # Core casks
-brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
 
 # Development tool casks
-brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
@@ -151,21 +151,37 @@ brew cask install --appdir="/Applications" macdown
 
 # Misc casks
 brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" google-chrome-canary
+
 brew cask install --appdir="/Applications" firefox
+brew cask install --appdir="/Applications" firefox-developer-edition
+
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
-brew cask install --appdir="/Applications" 1password
-#brew cask install --appdir="/Applications" gimp
-#brew cask install --appdir="/Applications" inkscape
+brew cask install --appdir="/Applications" lastpass 
+brew cask install --appdir="/Applications" vlc
+brew cask install --appdir="/Applications" postgresapp
+brew cask install --appdir="/Applications" grandperspective
+brew cask install --appdir="/Applications" spectacle
+brew cask install --appdir="/Applications" caffeine
+brew cask install --appdir="/Applications" dropbox
+
+brew cask install --appdir="/Applications" karabiner
+
+
+
+
 
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install --appdir="/Applications" mactex
 
+brew install 
+
+
 # Install Docker, which requires virtualbox
 brew install docker
-brew install boot2docker
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
