@@ -167,7 +167,7 @@ brew cask install --appdir="/Applications" grandperspective
 brew cask install --appdir="/Applications" spectacle
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" dropbox
-
+brew cask install --appdir="/Applications" kindle
 brew cask install --appdir="/Applications" karabiner
 
 
