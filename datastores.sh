@@ -29,6 +29,8 @@ brew install elasticsearch
 # Install Cask
 brew install caskroom/cask/brew-cask
 brew cask install --appdir="/Applications" mysqlworkbench
+brew cask install --appdir="/Applications" postico
+brew cask install --appdir="/Applications" sequel-pro
 
 # Remove outdated versions from the cellar.
 brew cleanup
